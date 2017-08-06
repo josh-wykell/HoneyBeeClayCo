@@ -1,0 +1,174 @@
+
+
+html {
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  color: #3c6240;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  min-height: 100%;
+}
+
+nav {
+  background: #b0baba;
+  border-bottom: 1px solid;
+}
+
+.ComingSoon {
+  float: right;
+  margin: 100px 25px 25px 25px;
+}
+
+#MainFooter {
+  background: #d2d0cb;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  bottom: 0px;
+}
+
+#FooterA {
+  display: flex;
+  flex-direction: column;
+}
+
+#FooterContact h5 {
+  margin: 0px;
+  padding: 16px 0px 0px 25px;
+}
+
+#FooterSocial img {
+  padding: 0px 25px 0px 0px;
+  width: 50px;
+}
+
+#FooterSocial h5 {
+  margin: 10px 0px;
+}
+
+#FooterText {
+  padding: 0px 0px 0px 25px;
+}
+
+#FooterText p {
+  margin: 0px
+}
+
+#FooterWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body#WelcomeBody {
+  background-image: url("images/HBLandingBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*height: 100%;*/
+}
+
+@media (max-width: 700px) {
+  body#WelcomeBody{
+    background-image: url("images/MobileHBLandingBG.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*min-height: 100%;*/
+  }
+}
+
+/*div.WelcomeScreen h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+div.WelcomeScreen h4 {
+  font-family: 'Roboto Slab', serif;
+}*/
+
+.LandingLogo {
+    height: 400px;
+}
+
+.LandingLogoWrapper {
+  height: 400px;
+  width: 400px;
+  margin: 0px auto;
+}
+
+.Logo {
+  display: inline-block;
+}
+
+.MainNav {
+  display: inline-block;
+  float: right;
+  margin: 75px 0px 0px 0px;
+  vertical-align: top;
+  width: 375px;
+}
+
+.NavLinks {
+  list-style-type: none;
+}
+
+.NavLinks li {
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+  max-width: 60px;
+}
+
+.NavLogo {
+  width: 80px;
+  margin: 10px 20px 0px 20px;
+}
+
+#SiteWrapper {
+  /*height: 100%;*/
+  flex: 1;
+}
+
+.WelcomeScreen {
+    /*background: rgba(100, 92, 89, 0.25);*/
+    /*border-radius: 34px 34px 75px 75px;*/
+    /*box-shadow: 0 0 37px 17px rgba(100, 92, 89, 0.25);*/
+    margin: 10px auto;
+    padding: 8px 0px 15px 60px;
+}
+
+.WelcomeScreen h1 {
+  margin: 0px 0px 0px 0px;
+  font-family: 'Dancing Script', cursive;
+  color: #322020;
+  font-size: 52px;
+  font-weight: 100;
+}
+
+.WelcomeScreen h4 {
+  margin: 22px 0px 0px 0px;
+}
+
+.WelcomeSiteWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.72);
+}
+
+#WelcomeText {
+  color: #473210;
+  font-weight: 600;
+  max-width: 800px;
+}
