@@ -28,9 +28,22 @@ nav {
   border-bottom: 1px solid;
 }
 
+div.AvailableAt {
+  width: 400px;
+  margin: 50px 0px 0px 100px;
+}
+
+.AvailableAt ul {
+  list-style-type: none;
+}
+
+.AvailableAt ul li a {
+  font-size: 25px;
+}
+
 .ComingSoon {
   float: right;
-  margin: 100px 25px 25px 25px;
+  margin: 36px 25px 0px 25px;
 }
 
 #MainFooter {
