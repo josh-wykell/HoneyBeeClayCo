@@ -28,6 +28,12 @@ nav {
   border-bottom: 1px solid;
 }
 
+.AvailableAt h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  margin: 0px;
+}
+
 div.AvailableAt {
   width: 400px;
   margin: 50px 0px 0px 100px;
@@ -35,10 +41,18 @@ div.AvailableAt {
 
 .AvailableAt ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 8px 0px 16px 0px;
+}
+
+.AvailableAt ul li {
+  margin: 0px 0px 5px 0px;
 }
 
 .AvailableAt ul li a {
+  color: #4e4a55;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .ComingSoon {
